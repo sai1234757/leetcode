@@ -5,6 +5,7 @@ class Solution(object):
         :type k: int
         :rtype: int
         """
+        nums.sort()
         left=0
         total=0
         result=0
